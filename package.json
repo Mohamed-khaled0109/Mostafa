@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "project.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon --ext *"
+  },
+  "keywords": [],
+  "dependencies": {
+    "axios": "^1.16.0",
+    "bcrypt": "^6.0.0",
+    "connect-livereload": "^0.6.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "livereload": "^0.10.3",
+    "mongoose": "^9.4.1",
+    "socket.io": "^4.8.3"
+  }
+}
